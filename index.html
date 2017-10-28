@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Baidu</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+		<link rel="apple-touch-icon" sizes="128x128" href="./baidu.png">
+        <link rel="shortcut icon" href="./favicon.ico">
+		<style>
+			html, body {
+				font-family: "PT Sans", Helvetica, Arial, sans-serif;
+				text-align: center;
+				margin: auto;
+			}
+
+			.input{	
+				border-width: 1px;
+				border-style: solid;
+				outline: none;
+				padding: 5px;
+			}
+
+			.button{
+				background-color: #CCCCCC;
+				padding: 5px 10px;
+				cursor: pointer;
+			}
+		</style>
+	</head>
+	<body>
+		<br/>
+		<br/>
+		<br/>
+		<h1>Baidu</h1>
+		<form action="https://www.baidu.com/s" method="get">
+			<input type="text" name="wd" class="input">
+			<br/>
+			<br/>
+			<label class="button">搜索
+				<input style="display:none" type="submit">
+			</label>
+		</form>
+	</body>
+</html>
